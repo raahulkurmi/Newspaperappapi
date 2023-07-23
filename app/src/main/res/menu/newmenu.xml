@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:title="india" android:icon="@drawable/baseline_newspaper_24"      android:id="@+id/indiaFragment"/>
+    <item android:title="Usa" android:icon="@drawable/baseline_newspaper_24"   android:id="@+id/australiaFragment"/>
+    <item android:title="canada" android:icon="@drawable/baseline_newspaper_24" android:id="@+id/usaFragment"/>
+    <item android:title="Australia" android:icon="@drawable/baseline_newspaper_24" android:id="@+id/caFragment"/>
+
+</menu>

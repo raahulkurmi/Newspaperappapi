@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/indiaFragment">
+
+    <fragment
+        android:id="@+id/indiaFragment"
+        android:name="com.example.newspaperappapi.IndiaFragment"
+        android:label="fragment_india"
+        tools:layout="@layout/fragment_india" />
+    <fragment
+        android:id="@+id/australiaFragment"
+        android:name="com.example.newspaperappapi.australiaFragment"
+        android:label="fragment_australia"
+        tools:layout="@layout/fragment_australia" />
+    <fragment
+        android:id="@+id/usaFragment"
+        android:name="com.example.newspaperappapi.usaFragment"
+        android:label="fragment_usa"
+        tools:layout="@layout/fragment_usa" />
+    <fragment
+        android:id="@+id/caFragment"
+        android:name="com.example.newspaperappapi.caFragment"
+        android:label="fragment_ca"
+        tools:layout="@layout/fragment_ca" />
+</navigation>
