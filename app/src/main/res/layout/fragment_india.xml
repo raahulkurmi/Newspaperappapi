@@ -8,9 +8,10 @@
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/animationView"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         app:lottie_rawRes="@raw/searching"
         android:visibility="gone"
+        android:foregroundGravity="center"
         app:lottie_autoPlay="true"
         app:lottie_loop="true"/>
 

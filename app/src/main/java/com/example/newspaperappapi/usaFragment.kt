@@ -6,7 +6,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.newspaperappapi.databinding.FragmentIndiaBinding
 import com.example.newspaperappapi.databinding.FragmentUsaBinding
+import jsonresponse
 
 
 class usaFragment : Fragment() {
@@ -42,6 +44,7 @@ binding.animationView.visibility=View.VISIBLE
             // Data fetched successfully, do something with the list of articles
             lists.addAll(articles)
             setupRecyclerView()
+
         }
     }
     private fun setupRecyclerView() {
